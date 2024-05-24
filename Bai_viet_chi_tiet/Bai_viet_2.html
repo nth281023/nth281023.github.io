@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kho tàng cổ tích Việt Nam</title>
+    <style>
+        #combobox {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style=" font-weight: bold; text-align: center;" ><a href="Trang_Chu.html" title="Sách Hay Online - Đọc Sách Online">Sách hay mỗi ngày</a></h1>
+    <p style=" font-weight: bold; text-align: center;"> 
+        <a href="/BTVN/Trang_Chu.html">Trang chủ</a>  | 
+        <a href="/BTVN/Danh_Muc.html"> Danh mục</a>  | 
+        <a href="/BTVN/Tac_Gia.html">Tác giả</a> | 
+        <a href="/BTVN/Lien_He.html">Liên hệ</a> |
+        <a href="/BTVN/Quan_Tri.html">Quản trị</a> 
+    </p>
+
+    <h2 style=" font-weight: bold; text-align: left;"> Kho tàng cổ tích Việt Nam </h2>
+    <select id="combobox" onchange="navigateToSelectedContent(this.value)">
+        <option value="">Chọn nội dung</option>
+    </select>
+
+    <h3 id="loi-dan" style=" font-weight: bold; text-align: left; "> Lời dẫn </h3>
+    <p style="  text-align: justify; ">KHO TÀNG TRUYỆN CỔ TÍCH VIỆT NAM, kể từ lần in thứ bảy, in cùng lúc trọn bộ cả năm tập. Rất tiếc, ở những lần in toàn vẹn này tác giả đã không còn được tự mình xem lại bản in thử, như ông đã từng làm việc đó một cách hứng thú và kiên trì trong sáu lần in lẻ tẻ từng tập trước đây. Tuy nhiên, từ sau khi tập V ra mắt (1982), thân phụ chúng tôi đã có dịp chỉnh lý kỹ cả năm tập, nhất là phần Tổng luận, nhằm chuẩn bị cho một lần in đầy đủ sau này. Chúng tôi cố gắng trung thành với những sửa chữa trực tiếp của ông, kể cả một đôi chỗ ông ủy thác cho tôi soát lại chút ít ít câu chữ, trong khi đọc bộ sách.</p>
+        
+    <p style="  text-align: justify; ">Mặt khác, trong lần in thứ tư (1972), tác giả có một thay đổi đáng kể trong kết cấu cuốn sách của mình: ông bỏ đi 2 truyện và thay bằng 2 truyện khác để giữ nguyên số lượng 200 truyện. Cân nhắc kỹ lại trong lần in thứ bảy, chúng tôi đã mạnh dạn đưa một truyện trong số đó trở lại bộ sách: truyện Giết chó khuyên chồng, số 50. Để bạn đọc dễ nhận ra truyện này đã được bỏ đi, chúng tôi đặt chữ số 50 đứng đầu tên truyện trong dấu [ ]. Tôn trọng ý nguyện của tác giả, các quy tắc viết hoa và phiên âm tên người, tên đất vẫn giữ nguyên như trong mấy lần in trước chứ không thay đổi. Tuy vậy, để giúp các nhà nghiên cứu có thể tra tìm nhanh chóng khối lượng tài liệu nước ngoài hết sức lớn mà tác giả đã tham khảo, ở các chú thích xuất xứ, bên cạnh tên người phiên âm trước đây chúng tôi có ký chú thêm nguyên văn, hoặc chuyển ngữ tiếng Pháp. Đối với tên một số dân tộc, hay một số địa danh trên thế giới được nhắc đến trong mục Khảo dị, nếu thấy cần thiết, chúng tôi cũng làm như vậy. Cuối bộ sách, chúng tôi còn thêm vào một Bảng tra cứu tên truyện sắp xếp theo trật tự a b c. Tất cả những việc này đều do các bạn bè thân thiết trong Ban văn học Cổ cận đại Viện Văn học góp sức thực hiện vào năm 1992.</p>
+        
+    <p style="  text-align: justify; ">Xin ghi lại ở đây tình cảm biết ơn chân thành của gia đình tác giả. Chúng tôi cũng trân trọng cảm ơn Nhà xuất bản Giáo dục đã có nhã ý đưa Kho tàng truyện cổ tích Việt Nam vào trường học, để bộ sách đến thẳng với một đối tượng đông đảo từ mấy thập kỷ nay vẫn là người bạn gần gũi của nó: học sinh, sinh viên, giáo viên, giảng viên ngữ văn ở các trường đại học.
+    </p>
+    
+    <h3 id="su-tich-dua-hau" style=" font-weight: bold; text-align: left; "> 1. Sự tích dưa hấu</h3>
+        <p style="  text-align: justify; "> Ngày xưa có một người trẻ tuổi tên là Mai An Tiêm. Chàng là người ở một nước đâu tận vùng biển phía Nam, bị bán làm nô. Một hôm, chàng bị bọn lái buôn chở đến bán cho Hùng Vương. Mai An Tiêm học nói tiếng Việt rất chóng. Chàng nhớ nhiều chuyện, biết nhiều điều thường thức, lại lắm tài nghề. Càng ngày vua càng yêu dấu, không lúc nào rời. Năm ba mươi lăm tuổi, chàng làm quan hầu cận, có một ngôi nhà riêng ở gần cung vua. Vợ Mai là con gái nuôi của vua đã sinh được một trai lên năm tuổi. Mai có đủ mọi người hầu hạ, trong nhà của ngon vật lạ không thiếu thứ gì. Tuy oai quyền không lớn lắm nhưng chàng được mọi người sợ phục. Nhiều kẻ vẫn thường lui tới cầu cạnh. Nhưng thấy Mai có địa vị cao, cũng không hiếm gì những kẻ sinh lòng ghen ghét.
+        </p>
+
+        <p style="  text-align: justify; ">Một hôm, trong một bữa tiệc đãi các quan khách, giữa lúc mọi người không ngớt lời xưng tụng mình, Mai An Tiêm nhún nhường bảo họ:
+
+            - Có gì đâu! Tất cả mọi thứ trong nhà này đều là vật tiền thân của tôi cả! </p>
+        <p style="  text-align: justify; "> Mai nói rất tự nhiên. Bởi vì tôn giáo xứ sở chàng bảo rằng cái sướng cái khổ hiện tại là kết quả của sự ăn ở tốt hay xấu của tiền kiếp. Nhưng trong số người dự tiệc có mấy viên quan hầu gần vua, vốn ghét chàng từ lâu. Chụp lấy câu nói mà họ cho là ngạo mạn đó, họ bèn vội vàng về tâu cho vua biết.
+
+            Vua Hùng nghe nói vô cùng giận dữ. Vua gầm lên:
+            
+            - Chà! Thằng láo! Hôm nay nó nói thế, ngày mai nó còn tuôn ra những lời bất kính đến đâu. Quân nô lệ phản trắc! Giam cổ nó lại cho ta!</p>
+        <p style="  text-align: justify; "> Buổi chiều hôm ấy, Mai bị bắt bỏ vào ngục tối. Bấy giờ chàng mới hiểu chàng lỡ lời. Mai tự bảo: - "Nếu từ nay trở đi ta bị đày đọa là vì kiếp trước ta đã cư xử không phải". </p>
+        <p style="  text-align: justify; "> Trong khi đó thì ở triều, các quan họp bàn để xử án Mai. Nhiều người đề nghị xử tử. Có người đề nghị cắt gót chân. Nhưng lời tâu của một ông quan già làm cho Hùng Vương chú ý:
+
+            - Hắn bị tội chết là đúng. Nhưng trước khi hắn chết ta nên bắt hắn phải nhận ra một cách thấm thía rằng những của cải của hắn đây là do ơn trời biển của bệ hạ chứ chả phải là vật tiền thân nào cả. Tôi nghe ngoài cửa Nga-sơn có một hòn đảo. Cho hắn ra đấy với một hai tháng lương để hắn ngồi ngẫm nghĩ về "vật tiền thân" của hắn trước khi tắt thở.</p>
+        <p style="  text-align: justify; "> Vua Hùng gật đầu chấp thuận. Nhưng sau khi ra lệnh, vua còn dặn: - "Cho hắn lương vừa đủ dùng trong một mùa, nghe không". </p>
+
+        <p style="  text-align: justify; "> ... </p>
+
+        <p style="  text-align: justify; "> Vua bèn sai một đoàn lính hầu đi đón hai vợ chồng về, cho Mai trở lại chức cũ. Vua lại ban cho hai người con gái hầu để an ủi chàng.
+
+            Bây giờ chỗ hải đảo, người ta còn gọi là bãi An Tiêm. Những người kế tiếp công việc của hai vợ chồng Mai trên đảo vẫn còn dòng dõi đông đúc. Họ lập thành làng gọi là làng Mai-an. ở ngôi nhà cũ của Mai thì họ lập đền thờ hai vợ chồng chàng. Nhân dân gọi là "ông bà tổ dưa Tây (hay dưa hấu) </p>
+    
+        <h3 id="su-tich-chim-tu-hu" style=" font-weight: bold; text-align: left; ">2. Sự tích chim tu hú </h3>
+        <p style="  text-align: justify; "> Ngày xưa có hai nhà sư Năng Nhẫn và Bất Nhẫn. Hai người cùng cạo đầu xuất gia từ ngày còn trẻ và cùng tu ở một ngôi chùa hẻo lánh.
+            Sau một thời gian dài tu luyện thì bỗng một hôm, Năng Nhẫn được đức Phật độ cho thành chính quả.
+            
+            Bất Nhẫn thấy mình tu hành không kém gì bạn mà không được hưởng may mắn như bạn thì rất buồn bực. Chàng đến trước tòa sen hết sức kêu nài với đức Phật bày tỏ lòng chân thành tu đạo cùng mọi sự khổ hạnh đã trải qua của mình. Đức Phật bảo chàng: - "Nhà ngươi chuyên tâm cầu đạo, lại là người trong sạch, thật đáng khen ngợi. Nhưng tính tình nhà ngươi vẫn như con trâu chưa thuần, chưa thể đắc đạo được. Vậy hãy cố gắng tỏ rõ tấm lòng nhẫn nhục trong một cuộc khổ hạnh trường kỳ rồi sẽ theo bạn cũng chưa muộn".
+            
+            Bất Nhẫn nghe lời bèn lên núi chọn một gốc cây bắt chước người xưa ngồi xếp bằng tu theo lối trường định. Chàng cương quyết ngồi im lặng như thế mãi trong ba năm, dù có phải thế nào cũng không chịu dậy.
+            
+            Và từ hôm đó, Bất Nhẫn như một vật vô tri vô giác. Những con sâu con kiến bò khắp mình chàng. Những con thú cà vào thân chàng. Những con chim ỉa phẹt lên đầu chàng. Chàng đều không hề bận tâm. Chàng chỉ một mực tâm tâm niệm niệm nghĩa lý cao thâm của đạo Phật. </p>
+
+        <p style="  text-align: justify; "> Cứ như thế, trải qua hai mùa hè và sắp sửa qua một mùa hè thứ ba là kết liễu cuộc tu luyện. Một hôm tự dưng có hai vợ chồng con chim chích ở đâu đến làm tổ ngay trong vành tai của Bất Nhẫn. Chàng cứ để yên, mặc chúng muốn làm gì thì làm. Chúng đi về tha rác lên đầu, lên mặt. Rồi chim mái đẻ trứng. Rồi cả một thời kỳ hai vợ chồng thay phiên nhau ấp. Cho đến lúc trứng nở, những con chim non kêu léo nhéo suốt ngày. Nhưng Bất Nhẫn không lấy thế làm khó chịu.
+
+            Một hôm, lúc ấy chỉ còn mười ngày nữa thì Bất Nhẫn hết hạn ngồi dưới gốc cây. Hôm đó, đến lượt con chim vợ đi tìm thức ăn cho con.
+           
+           Suốt một buổi chiều nó vẫn không kiếm được một chút gì. Mãi đến gần tối lúc lượn qua một cái hồ, chim vợ mới thấy một con nhện đang giăng tơ trong một đóa hoa sen. Nhện nhác thấy chim liền ẩn mình vào giữa những cánh hoa làm cho chim mất công tìm mãi. Không ngờ hoa sen vừa tắt ánh mặt trời đã cụp ngay cánh lại, nhốt chim vào trong. Chim cố công tìm lối chui ra nhưng những cánh hoa vây bọc dày quá đành chịu nằm lại đó.
+           
+           Ở nhà, chim chồng hết bay đi kiếm vợ lại trở về. Đàn con đói mồi nháo nhác suốt đêm. Mãi đến sáng mai, chờ lúc hoa nở, chim vợ mới thoát được bay về tổ. Một cuộc cãi lộn nổ ra bên tai Bất Nhẫn. Ghen vợ, chim chồng mắng nhiếc vợ hết lời. Nhưng chim vợ vẫn hết sức bày tỏ nỗi lòng trinh bạch của mình. Cuộc đấu khẩu kéo dài suốt cả buổi sáng và có cơ chưa chấm dứt. Bất Nhẫn rất khó chịu. Thêm vào đó, đàn con khóc đói chíu chít điếc cả tai. Nhè lúc vợ chồng chim cãi vã đến chỗ găng nhất, Bất Nhẫn bỏ tay lên tai giật cái tổ chim vứt mạnh xuống đất và nói: - "Đồ khốn! Chỉ có mỗi một chuyện đó mà chúng mày làm điếc tai ông từ sáng đến giờ".
+           
+           Thế là công sức tu luyện của Bất Nhẫn sắp hoàn thành thốt nhiên vứt bỏ trong chốc lát.
+           
+           Nhưng Bất Nhẫn vẫn không nản chí. Trước tòa sen, chàng hứa sẽ kiếm cách tỏ rõ sự hối lỗi của mình. Chàng tìm đến một khúc sông nước chảy xiết, tình nguyện làm người chèo đò đưa khách bộ hành quá giang mà không lấy tiền. Chàng quyết chở cho đến người thứ một trăm mới chịu nghỉ tay.</p>
+
+        <p style="  text-align: justify; "> Lần này Bất Nhẫn tỏ ra một người rất nhẫn nại. Tuy bến sông thường vắng khách, chàng vẫn không chịu bỏ dở công việc. Luôn trong hai năm chàng chở được chín mươi tám người mà không xảy ra việc gì.
+        </p>
+
+</body>
+</html>
